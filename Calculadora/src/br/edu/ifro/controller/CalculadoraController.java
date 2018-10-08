@@ -22,7 +22,7 @@ import javafx.stage.Stage;
  *
  * @author 85352144291
  */
-public class TesteCalculadoraController implements Initializable {
+public class CalculadoraController implements Initializable {
     
     @FXML
     private TextField txtNumero1;
