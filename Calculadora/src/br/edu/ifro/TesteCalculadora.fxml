@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.TesteCalculadoraController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff4b1f8a" height="31.0" layoutX="19.0" layoutY="160.0" stroke="TRANSPARENT" strokeType="INSIDE" width="149.0" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtNumero1" layoutX="20.0" layoutY="51.0" />
+      <Label layoutX="20.0" layoutY="28.0" text="numero 1" />
+      <Label layoutX="20.0" layoutY="83.0" text="numero 2" />
+      <TextField fx:id="txtNumero2" layoutX="20.0" layoutY="108.0" />
+      <Button fx:id="btnSoma" layoutX="214.0" layoutY="5.0" mnemonicParsing="false" onAction="#Somar" prefHeight="42.0" prefWidth="78.0" text="Somar" />
+      <Label fx:id="lbResultado" layoutX="31.0" layoutY="163.0">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button fx:id="btnSubtrair" layoutX="214.0" layoutY="55.0" mnemonicParsing="false" onAction="#Subtrair" prefHeight="42.0" prefWidth="78.0" text="Subtrair" />
+      <Button fx:id="btnDividir" layoutX="213.0" layoutY="105.0" mnemonicParsing="false" onAction="#Dividir" prefHeight="42.0" prefWidth="78.0" text="Dividir" />
+      <Button fx:id="btnMultiplicar" layoutX="213.0" layoutY="153.0" mnemonicParsing="false" onAction="#Multiplicar" prefHeight="42.0" prefWidth="78.0" text="Multiplicar" />
+      <Separator layoutX="189.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Label layoutX="20.0" layoutY="139.0" text="Resultado" />
+    </children>
+</AnchorPane>
